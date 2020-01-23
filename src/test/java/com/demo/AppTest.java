@@ -1,6 +1,6 @@
 package com.demo;
 
-import static org.junit.Assert.assertTrue;
+import org.junit.Assert;
 
 import org.junit.Test;
 
@@ -15,11 +15,11 @@ public class AppTest
     @Test
     public void shouldAnswerWithTrue()
     {
-        assertTrue( true );
+        Assert.assertTrue( true );
     }
     @Test
     public void shouldNotAnswerWithTrue()
     {
-        assertFalse( false );
+        Assert.assertFalse( false );
     }
 }
