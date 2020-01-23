@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.demo.ProductTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in com.demo.ProductTest
+shouldBuy(com.demo.ProductTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected:<5> but was:<6>
+	at com.demo.ProductTest.shouldBuy(ProductTest.java:29)
+
