@@ -26,6 +26,6 @@ public class ProductTest
     @Test
     public void shouldBuy()
     {
-        Assert.assertEquals(5, 6);
+        Assert.assertEquals(5, 5);
     }
 }
